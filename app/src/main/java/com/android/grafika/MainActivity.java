@@ -112,6 +112,9 @@ public class MainActivity extends ListActivity {
         { "{~ignore} Software input surface",
             "Exercises bug",
             "SoftInputSurfaceActivity" },
+        { "Custom Video overlay",
+                "Overlay video",
+                "OverlayVideoActivity" },
     };
 
     /**

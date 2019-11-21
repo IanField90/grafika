@@ -23,8 +23,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.annotation.NonNull;
-import android.support.annotation.RequiresApi;
 import android.util.Log;
 import android.view.Display;
 import android.view.Surface;
@@ -50,6 +48,9 @@ import java.lang.ref.WeakReference;
 
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 
 /**
  * Shows the camera preview on screen while simultaneously recording it to a .mp4 file.
